@@ -59,7 +59,6 @@ if (existingContact) {
         <h1 className={styles.title}>Phonebook</h1>
         <ContactForm
           addContact={this.addContact}
-          contacts={this.state.contacts}
         />
         <h2 className={styles.title}>Contacts</h2>
         <Filter value={filter} onChange={this.handleChangeFilter} />
